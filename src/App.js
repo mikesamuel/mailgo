@@ -7,12 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src="mailgo.png" />
-        <a
-          className="App-link"
-          href="mailto:matteo@manzinello.dev"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
+        <a className="App-link" href="mailto:matteo@manzinello.dev">
           matteo@manzinello.dev
         </a>
         <code className="code">
