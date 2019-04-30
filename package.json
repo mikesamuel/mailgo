@@ -8,7 +8,7 @@
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.0"
   },
-  "homapage": "mailgo.js.org",
+  "homapage": "https://mailgo.js.org",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
