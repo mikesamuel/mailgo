@@ -1,3 +1,0 @@
-# 💌 mailgo
-
-A different mailto:
