@@ -15,6 +15,11 @@ function App() {
         >
           matteo@manzinello.dev
         </a>
+        <code className="code">
+          {
+            '<script src="https://cdn.jsdelivr.net/gh/manzinello/mailgo/dist/mailgo.js"></script>'
+          }
+        </code>
       </header>
     </div>
   );
