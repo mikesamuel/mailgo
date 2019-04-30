@@ -6,6 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <img src="mailgo.png" />
         <p>mailgo (WIP)</p>
         <a
           className="App-link"
