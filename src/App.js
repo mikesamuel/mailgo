@@ -12,7 +12,7 @@ function App() {
         </a>
         <code className="code">
           {
-            '<script src="https://cdn.jsdelivr.net/gh/manzinello/mailgo/dist/mailgo.js"></script>'
+            '<script src="https://cdn.jsdelivr.net/gh/manzinello/mailgo/dist/mailgo.min.js"></script>'
           }
         </code>
       </header>
