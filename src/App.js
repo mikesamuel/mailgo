@@ -8,13 +8,17 @@ function App() {
       <header className="App-header">
         <img src="mailgo.png" />
         <h1>mailgo</h1>
-        <a className="App-link" href="mailto:matteo@manzinello.dev">
-          matteo@manzinello.dev
-        </a>
         <code className="code">
-          {
-            '<script src="https://cdn.jsdelivr.net/gh/manzinello/mailgo/dist/mailgo.min.js"></script>'
-          }
+          WIP,{" "}
+          <a class="App-link" href="https://github.com/manzinello/mailgo">
+            GitHub
+          </a>
+          <br />
+          <br />a project by
+          <br />
+          <a class="App-link" href="https://matteomanzinello.com">
+            matteo manzinello
+          </a>
         </code>
       </header>
     </div>
