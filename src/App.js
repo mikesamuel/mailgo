@@ -19,6 +19,13 @@ function App() {
           <a class="App-link" href="https://matteomanzinello.com">
             matteo manzinello
           </a>
+          <br />
+          <br />
+          how it works?
+          <br />
+          <a class="App-link" href="mailto:matteo@manzinello.dev">
+            matteo@manzinello.dev
+          </a>
         </code>
       </header>
     </div>
