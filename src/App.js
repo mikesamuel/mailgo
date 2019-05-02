@@ -15,7 +15,13 @@ function App() {
           </a>
           <br />
           <br />
-          how it works?
+          without mailgo
+          <br />
+          <a class="App-link no-mailgo" href="mailto:matteo@manzinello.dev">
+            matteo@manzinello.dev
+          </a>
+          <br />
+          with mailgo
           <br />
           <a class="App-link" href="mailto:matteo@manzinello.dev">
             matteo@manzinello.dev
