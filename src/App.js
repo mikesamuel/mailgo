@@ -15,7 +15,7 @@ function App() {
           </a>
           <br />
           <br />
-          without mailgo
+          a classic mailto
           <br />
           <a class="App-link no-mailgo" href="mailto:matteo@manzinello.dev">
             matteo@manzinello.dev
