@@ -21,11 +21,16 @@ function App() {
             matteo@manzinello.dev
           </a>
           <br />
-          with mailgo
+          with <strong>mailgo</strong>
           <br />
           <a class="App-link" href="mailto:matteo@manzinello.dev">
             matteo@manzinello.dev
           </a>
+          <br />
+          <br />
+          <u>
+            less then <strong>7KB</strong>
+          </u>
           <br />
           <br />a project by
           <br />
