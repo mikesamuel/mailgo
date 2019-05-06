@@ -36,3 +36,11 @@ code.code {
     transform: rotate(360deg);
   }
 }
+
+.mailgo-title {
+  margin-top: 10px;
+}
+
+.mailgo-version {
+  margin-top: 0;
+}

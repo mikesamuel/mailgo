@@ -3,13 +3,17 @@ import React from "react";
 import "./App.css";
 
 class App extends React.Component {
+  state = { version: "" };
+
   constructor(props) {
     super(props);
     fetch("https://api.npms.io/v2/package/mailgo")
       .then(r => {
         return r.json();
       })
-      .then(v => console.log(v.collected.metadata.version));
+      .then(v => {
+        this.setState({ version: v.collected.metadata.version });
+      });
   }
 
   render() {
@@ -17,7 +21,8 @@ class App extends React.Component {
       <div className="App">
         <header className="App-header">
           <img src="mailgo.png" />
-          <h1>mailgo</h1>
+          <h1 className="mailgo-title">mailgo</h1>
+          <h5 className="mailgo-version">v{this.state.version}</h5>
           <code className="code">
             WIP,{" "}
             <a className="App-link" href="https://github.com/manzinello/mailgo">
