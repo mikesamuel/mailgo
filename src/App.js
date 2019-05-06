@@ -3,6 +3,15 @@ import React from "react";
 import "./App.css";
 
 class App extends React.Component {
+  constructor(props) {
+    super(props);
+    fetch("https://api.npms.io/v2/package/mailgo")
+      .then(r => {
+        return r.json();
+      })
+      .then(v => console.log(v.collected.metadata.version));
+  }
+
   render() {
     return (
       <div className="App">
@@ -11,20 +20,23 @@ class App extends React.Component {
           <h1>mailgo</h1>
           <code className="code">
             WIP,{" "}
-            <a class="App-link" href="https://github.com/manzinello/mailgo">
+            <a className="App-link" href="https://github.com/manzinello/mailgo">
               GitHub
             </a>
             <br />
             <br />
             a classic mailto
             <br />
-            <a class="App-link no-mailgo" href="mailto:matteo@manzinello.dev">
+            <a
+              className="App-link no-mailgo"
+              href="mailto:matteo@manzinello.dev"
+            >
               matteo@manzinello.dev
             </a>
             <br />
             with <strong>mailgo</strong>
             <br />
-            <a class="App-link" href="mailto:matteo@manzinello.dev">
+            <a className="App-link" href="mailto:matteo@manzinello.dev">
               matteo@manzinello.dev
             </a>
             <br />
@@ -35,7 +47,7 @@ class App extends React.Component {
             <br />
             <br />a project by
             <br />
-            <a class="App-link" href="https://matteomanzinello.com">
+            <a className="App-link" href="https://matteomanzinello.com">
               matteo manzinello
             </a>
           </code>
