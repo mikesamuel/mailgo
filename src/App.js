@@ -56,7 +56,7 @@ class App extends React.Component {
             <br />
             <br />
             <u>
-              less then <strong>7KB</strong>
+              less than <strong>7KB</strong>
             </u>
             <br />
             <br />
