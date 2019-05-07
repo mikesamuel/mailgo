@@ -29,20 +29,29 @@ class App extends React.Component {
               GitHub
             </a>
             <br />
-            <br />
-            a classic mailto
-            <br />
+            <div class="demo">
+              a classic mailto
+              <br />
+              <a
+                className="App-link no-mailgo"
+                href="mailto:matteo@manzinello.dev"
+              >
+                matteo@manzinello.dev
+              </a>
+              <br />
+              <br />
+              with <strong>mailgo</strong>
+              <br />
+              <a className="App-link" href="mailto:matteo@manzinello.dev">
+                matteo@manzinello.dev
+              </a>
+            </div>
+            docs:{" "}
             <a
-              className="App-link no-mailgo"
-              href="mailto:matteo@manzinello.dev"
+              className="App-link"
+              href="https://github.com/manzinello/mailgo/blob/master/README.md"
             >
-              matteo@manzinello.dev
-            </a>
-            <br />
-            with <strong>mailgo</strong>
-            <br />
-            <a className="App-link" href="mailto:matteo@manzinello.dev">
-              matteo@manzinello.dev
+              README
             </a>
             <br />
             <br />
@@ -50,11 +59,14 @@ class App extends React.Component {
               less then <strong>7KB</strong>
             </u>
             <br />
-            <br />a project by
             <br />
-            <a className="App-link" href="https://matteomanzinello.com">
-              matteo manzinello
-            </a>
+            <div className="smaller">
+              a project by
+              <br />
+              <a className="App-link" href="https://matteomanzinello.com">
+                matteo manzinello
+              </a>
+            </div>
           </code>
         </header>
       </div>

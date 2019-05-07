@@ -39,8 +39,20 @@ code.code {
 
 .mailgo-title-docs {
   margin-top: 10px;
+  margin-bottom: 2px;
 }
 
 .mailgo-version {
   margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.smaller {
+  font-size: 12px;
+}
+
+.demo {
+  border: 1px dashed white;
+  padding: 20px;
+  margin: 16px;
 }
