@@ -1,3 +1,5 @@
-# 💌 mailgo docs
+# 💌 mailgo
 
-https://mailgo.js.org
+<https://github.com/manzinello/mailgo>
+
+<https://mailgo.js.org>
