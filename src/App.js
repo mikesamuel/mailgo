@@ -20,7 +20,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src="mailgo.png" />
+          <img src="mailgo.png" alt="mailgo" />
           <h1 className="mailgo-title-docs">mailgo</h1>
           <h5 className="mailgo-version">v{this.state.version}</h5>
           <code className="code">
