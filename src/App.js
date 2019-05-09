@@ -55,9 +55,10 @@ class App extends React.Component {
             </a>
             <br />
             <br />
-            <u>
-              less than <strong>7KB</strong>
-            </u>
+            <img
+              alt="size of mailgo.min.js on GitHub"
+              src="https://img.shields.io/github/size/manzinello/mailgo/dist/mailgo.min.js.svg?label=mailgo.min.js&style=flat-square"
+            />
             <br />
             <br />
             <div className="smaller">
